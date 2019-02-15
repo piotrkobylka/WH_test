@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: apiincucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.821 sec <<< FAILURE!
+Get Highest-Roller(Tests for my test api)  Time elapsed: 0.263 sec  <<< FAILURE!
+java.lang.AssertionError: User with Id: 3 has not marked Highest Roller as true
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_only_users_with_highest_balance_has_marked_high_roller_to_true(Stepdefs.java:70)
+	at ?.verify only users with highest balance has marked high-roller to true(apiincucumber/ApiTests.feature:12)
+
+Convert balances and currencies to GBP(Tests for my test api)  Time elapsed: 0.049 sec  <<< FAILURE!
+java.lang.AssertionError: There are still users with not converted currency
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.check_all_users_has_GBP_currency(Stepdefs.java:102)
+	at ?.check all users has "GBP" currency(apiincucumber/ApiTests.feature:22)
+
+Update balance for user(Tests for my test api)  Time elapsed: 0.064 sec  <<< FAILURE!
+java.lang.AssertionError: Value for user is: 8.0 but should be: 20008.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_user_balance_is(Stepdefs.java:115)
+	at ?.verify user "Brian" balance is 20008(apiincucumber/ApiTests.feature:30)
+

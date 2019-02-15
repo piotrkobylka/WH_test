@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="3" name="apiincucumber.RunCucumberTest" time="0.485" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\java\jdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="c:\Users\sg0223946\cucumber\apiincucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="c:\Users\sg0223946\cucumber\apiincucumber"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SG0223~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\java\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\java\jdk1.8.0_77\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Pervasive Software\PSQL\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client\;C:\Program Files\7-Zip;C:\tools\bin;C:\Program Files\SysinternalsSuite;C:\java\jdk1.8.0_77\bin;C:\java\apache-maven-3.6.0\bin;C:\java\groovy\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Webex\Webex\Applications;."/>
+    <property name="maven.conf" value="C:\java\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\java\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\sg0223946"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SG0223946"/>
+    <property name="java.class.path" value="C:\java\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\java\jdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\java\jdk1.8.0_77\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\java\jdk1.8.0_77\jre\lib\resources.jar;C:\java\jdk1.8.0_77\jre\lib\rt.jar;C:\java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\java\jdk1.8.0_77\jre\lib\jsse.jar;C:\java\jdk1.8.0_77\jre\lib\jce.jar;C:\java\jdk1.8.0_77\jre\lib\charsets.jar;C:\java\jdk1.8.0_77\jre\lib\jfr.jar;C:\java\jdk1.8.0_77\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\java\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Tests for my test api" name="Get Highest-Roller" time="0.263">
+    <failure message="User with Id: 3 has not marked Highest Roller as true" type="java.lang.AssertionError">java.lang.AssertionError: User with Id: 3 has not marked Highest Roller as true
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_only_users_with_highest_balance_has_marked_high_roller_to_true(Stepdefs.java:70)
+	at ✽.verify only users with highest balance has marked high-roller to true(apiincucumber/ApiTests.feature:12)
+</failure>
+    <system-out>Feature: Tests for my test api
+  Created to test api for this new feature
+
+  Background:              &amp;#27;[90m# apiincucumber/ApiTests.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mclean all shares&amp;#27;[0m &amp;#27;[90m# Stepdefs.clean_all_shares()&amp;#27;[0m
+
+  Scenario: Get Highest-Roller                                                 &amp;#27;[90m# apiincucumber/ApiTests.feature:9&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mget Users data from database&amp;#27;[0m                                         &amp;#27;[90m# Stepdefs.get_Users_data_from_database()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mcreate list of user ids who has highest balance&amp;#27;[0m                       &amp;#27;[90m# Stepdefs.create_list_of_user_ids_who_has_highest_balance()&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mverify only users with highest balance has marked high-roller to true&amp;#27;[0m &amp;#27;[90m# Stepdefs.verify_only_users_with_highest_balance_has_marked_high_roller_to_true()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: User with Id: 3 has not marked Highest Roller as true
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_only_users_with_highest_balance_has_marked_high_roller_to_true(Stepdefs.java:70)
+	at ?.verify only users with highest balance has marked high-roller to true(apiincucumber/ApiTests.feature:12)
+&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mverify other users has marked high-roller to false&amp;#27;[0m                     &amp;#27;[90m# Stepdefs.verify_other_users_has_marked_high_roller_to_false()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Tests for my test api" name="Convert balances and currencies to GBP" time="0.049">
+    <failure message="There are still users with not converted currency" type="java.lang.AssertionError">java.lang.AssertionError: There are still users with not converted currency
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.check_all_users_has_GBP_currency(Stepdefs.java:102)
+	at ✽.check all users has &quot;GBP&quot; currency(apiincucumber/ApiTests.feature:22)
+</failure>
+    <system-out>
+  Background:              &amp;#27;[90m# apiincucumber/ApiTests.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mclean all shares&amp;#27;[0m &amp;#27;[90m# Stepdefs.clean_all_shares()&amp;#27;[0m
+
+  Scenario: Convert balances and currencies to GBP          &amp;#27;[90m# apiincucumber/ApiTests.feature:16&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mget Users data from database&amp;#27;[0m                      &amp;#27;[90m# Stepdefs.get_Users_data_from_database()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mcreate list of user ids who has not &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mGBP&amp;#27;[0m&amp;#27;[32m&quot; currency&amp;#27;[0m &amp;#27;[90m# Stepdefs.create_list_of_user_ids_who_has_not_GBP_currency(String)&amp;#27;[0m
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mconvert all users currencies and balances to &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mGBP&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# Stepdefs.convert_all_users_currencies_and_balances_to_GBP(String)&amp;#27;[0m
+TEMP SOLUTION FOR TESTING WITHOUT DOCKER ACCESS
+User with id: 3 is updated to new values: User(id=3, name=user3, balance=700.01, currency=GBP, likes=Roulette Games, highRoller=false)
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mupdate converted Users to database&amp;#27;[0m                  &amp;#27;[90m# Stepdefs.update_converted_Users_to_database()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mget Users data from database&amp;#27;[0m                       &amp;#27;[90m# Stepdefs.get_Users_data_from_database()&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mcheck all users has &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mGBP&amp;#27;[0m&amp;#27;[31m&quot; currency&amp;#27;[0m                 &amp;#27;[90m# Stepdefs.check_all_users_has_GBP_currency(String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: There are still users with not converted currency
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.check_all_users_has_GBP_currency(Stepdefs.java:102)
+	at ?.check all users has &quot;GBP&quot; currency(apiincucumber/ApiTests.feature:22)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Tests for my test api" name="Update balance for user" time="0.064">
+    <failure message="Value for user is: 8.0 but should be: 20008.0" type="java.lang.AssertionError">java.lang.AssertionError: Value for user is: 8.0 but should be: 20008.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_user_balance_is(Stepdefs.java:115)
+	at ✽.verify user &quot;Brian&quot; balance is 20008(apiincucumber/ApiTests.feature:30)
+</failure>
+    <system-out>
+  Background:              &amp;#27;[90m# apiincucumber/ApiTests.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mclean all shares&amp;#27;[0m &amp;#27;[90m# Stepdefs.clean_all_shares()&amp;#27;[0m
+
+  Scenario: Update balance for user                  &amp;#27;[90m# apiincucumber/ApiTests.feature:25&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mget Users data from database&amp;#27;[0m               &amp;#27;[90m# Stepdefs.get_Users_data_from_database()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mupdate balance about &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m20000&amp;#27;[0m&amp;#27;[32m for user &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mBrian&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m &amp;#27;[90m# Stepdefs.update_balance_about_for_user(Double,String)&amp;#27;[0m
+TEMP SOLUTION FOR TESTING WITHOUT DOCKER ACCESS
+User with id: 4 is updated to new values: User(id=4, name=Brian, balance=20008, currency=GBP, likes=Slot Games, highRoller=false)
+    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mupdate converted Users to database&amp;#27;[0m          &amp;#27;[90m# Stepdefs.update_converted_Users_to_database()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mget Users data from database&amp;#27;[0m                &amp;#27;[90m# Stepdefs.get_Users_data_from_database()&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mverify user &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1mBrian&amp;#27;[0m&amp;#27;[31m&quot; balance is &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m20008&amp;#27;[0m        &amp;#27;[90m# Stepdefs.verify_user_balance_is(String,double)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError: Value for user is: 8.0 but should be: 20008.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at apiincucumber.Stepdefs.verify_user_balance_is(Stepdefs.java:115)
+	at ?.verify user &quot;Brian&quot; balance is 20008(apiincucumber/ApiTests.feature:30)
+&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Tests for my test api" name="Create and add new user" time="0.02"/>
+  <testcase classname="Tests for my test api" name="List of most popular games in week" time="0.02"/>
+  <testcase classname="Tests for my test api" name="Target customers for game" time="0.031"/>
+  <testcase classname="Tests for my test api" name="calculate spins possibilities" time="0.038"/>
+</testsuite>
